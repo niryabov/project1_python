@@ -1,16 +1,7 @@
 import arcade
 
 from constants import *
-import os
-import json
 
-
-# def MakeDir():
-#     dir = os.path.abspath(os.curdir)
-#     with open('resources/standard_tileset.json') as f:
-#         data = json.load(f)
-#         print(data)
-#     with open()
 
 
 def resource_path(relative_path):
@@ -168,7 +159,7 @@ class MyGame(arcade.Window):
 
 
 def main():
-    # MakeDir()
+ 
     window = MyGame()
     window.setup()
     arcade.run()
