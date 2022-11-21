@@ -24,7 +24,7 @@ class MyGame(arcade.Window):
     def setup(self):
         self.camera = arcade.Camera(self.width, self.height)
         self.gui_camera = arcade.Camera(self.width, self.height)
-        map_name = f"/home/nikita/python/project/resources/tiled_maps/map{self.level}.json"
+        map_name = f"tiled_maps/map{self.level}.json"
         layer_options = {
             LAYER_NAME_PLATFORMS: {
                 "use_spatial_hash": True,
